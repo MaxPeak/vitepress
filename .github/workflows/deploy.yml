@@ -20,4 +20,4 @@ jobs:
         with:
           BRANCH: gh-pages
           FOLDER: docs/.vitepress/dist
-          ACCESS_TOKEN: ${{ secerts.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
